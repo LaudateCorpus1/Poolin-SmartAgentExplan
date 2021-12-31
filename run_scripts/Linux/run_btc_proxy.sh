@@ -105,5 +105,5 @@ docker run -it --restart always -d \
         -v /work:/work \
         --name ${docker_name} \
         -p ${proxy_port}:1801 \
-        -p 18001:1812 \
+        -p 18011:1812 \
         ${docker_version}
