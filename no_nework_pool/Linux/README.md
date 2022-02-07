@@ -59,20 +59,20 @@ docker logs -f no_net_work_pool_btc --follow --tail 10
 ### ETH连接断网宝
 
 ```asm
-矿机挖矿地 stratum+tcp://本机ip:18005
+矿机挖矿地 stratum+tcp://本机ip:18015
 ```
 
 ### BTC连接断网宝
 
 ```asm
-矿机挖矿地 stratum+tcp://本机ip:18001
+矿机挖矿地 stratum+tcp://本机ip:18011
 ```
 
 ***注意：断网宝端口可在脚本中指定***
 
 ```asm
-#BTC 断网宝默认端口 18001
-#ETH 断网宝默认端口 18005
+#BTC 断网宝默认端口 18011
+#ETH 断网宝默认端口 18015
 #选填
 no_network_port=
 ```
